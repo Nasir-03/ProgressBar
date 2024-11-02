@@ -1,0 +1,54 @@
+body{
+    background-color: rgba(0, 0, 0, 0.723);
+}
+
+.main-container{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.container{
+    height: 30px;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.progress{
+    height: 100%;
+    width: 100%;
+    background-color: green;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    margin-top: 150px;
+}
+
+.btn button{
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 600;
+    background: aqua;
+    color: white;
+}
+
+/* .count-show{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
